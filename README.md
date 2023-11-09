@@ -4,13 +4,12 @@
 
 Hey folks,
 
-Welcome to the first Node.js challenge in the Ignite track!
 
-In this challenge, I practically reinforce the **concepts** we've learned in this module.
+In this challenge, I practically reinforce the **concepts** I've learned in the Ignite track.
 
 ## About the Challenge
 
-The API include the following features:
+The API includes the following features:
 
 - Create a task
 - List all tasks
@@ -32,7 +31,7 @@ Routes:
 
 - `POST - /tasks`
   create a task in the database by sending the `title` and `description` in the request body.
-  Upon creation, the fields: `id`, `created_at`, `updated_at`, and `completed_at` automatically populated as per the properties outlined above.
+  Upon creation, the fields: `id`, `created_at`, `updated_at`, and `completed_at` are automatically populated as per the properties outlined above.
 
 - `GET - /tasks`
   list all tasks stored in the database.
@@ -47,6 +46,7 @@ Routes:
 - `DELETE - /tasks/:id`
   remove a task by `id`.
   Validate if the `id` corresponds to a task in the database before removal.
+  
 - `PATCH - /tasks/:id/complete`
   toggle a task's completion status.
   Validate if the `id` corresponds to a task in the database before updating.
